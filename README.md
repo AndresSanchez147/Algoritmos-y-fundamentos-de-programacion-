@@ -2,6 +2,7 @@
 ejercicios 
 
 Algoritmo 1
+	
 	Definir num1 Como Entero
 	
 	Escribir"Ingrese su número"
@@ -12,23 +13,29 @@ FinAlgoritmo
 
 
 Algoritmo 2
-	Escribir "Hola Mundo!!"
+	
+	
+	scribir "Hola Mundo!!"
 FinAlgoritmo
 
 
 Algoritmo 3
+	
 	Definir num1 Como Entero;
 	Leer num1;
+	
 FinAlgoritmo
 
 
 Algoritmo 4
+	
 	Definir num1 Como Entero;
 	num1 = 5;
 FinAlgoritmo
 
 
 Algoritmo 5
+	
 	Definir a Como entero
 	Definir b Como entero
 	Definir c Como entero
@@ -51,6 +58,7 @@ FinAlgoritmo
 
 
 Algoritmo 6
+	
 	Definir a Como entero
 	Definir b Como entero
 	
@@ -65,6 +73,7 @@ FinAlgoritmo
 
 
 Algoritmo 7
+	
 	Definir a Como entero
 	Definir p Como Real
 	p = 3.1416; 
@@ -97,14 +106,10 @@ Algoritmo 8
 	FinSi
 FinAlgoritmo
 
-FinAlgoritmo
-
-	
-FinAlgoritmo
-
 
 
 lgoritmo 9
+
 	Escribir "Raíz cuadrada de 9:",rc(9)
 	Escribir "Valor absoluto de -3: ",abs(-3)
 	Escribir "Seno de 90 grados : ", sen(90*PI /180)
