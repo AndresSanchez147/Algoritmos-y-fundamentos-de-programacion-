@@ -10,19 +10,23 @@ Algoritmo 1
 	Escribir "El doble de ese número es", num1*2;
 FinAlgoritmo
 
+
 Algoritmo 2
 	Escribir "Hola Mundo!!"
 FinAlgoritmo
+
 
 Algoritmo 3
 	Definir num1 Como Entero;
 	Leer num1;
 FinAlgoritmo
 
+
 Algoritmo 4
 	Definir num1 Como Entero;
 	num1 = 5;
 FinAlgoritmo
+
 
 Algoritmo 5
 	Definir a Como entero
@@ -45,6 +49,7 @@ Algoritmo 5
 	Escribir "Su resultado es " [(a+b)-4]^2/(c*d)
 FinAlgoritmo
 
+
 Algoritmo 6
 	Definir a Como entero
 	Definir b Como entero
@@ -57,6 +62,7 @@ Algoritmo 6
 	
 	Escribir "Su área es: " a*b/2
 FinAlgoritmo
+
 
 Algoritmo 7
 	Definir a Como entero
@@ -90,8 +96,30 @@ Algoritmo 8
 	Escribir "FALSO"
 	FinSi
 FinAlgoritmo
+
+FinAlgoritmo
+
+
+Algoritmo 9 ejercicios_de_operadores_logicos 
+	Definir a , b , c , d Como Entero
+	Escribir " valor de a"
+	leer a
+	Escribir " valor de b"
+	leer b
+	Escribir " valor de c"
+	leer c
+	Escribir " valor de d"
+	leer d
+	
+    Escribir (a < 17) Y (b < 17)
+     Escribir (a=b) y (b=c) , (b<>c );
+     Escribir (a<b) Y (b<c) Y (a<d) Y (d<c)
+     Escribir (a=b) O  (b=C )  O (a=c)
+	
 	
 FinAlgoritmo
+
+
 
 lgoritmo 10
 	Escribir "Raíz cuadrada de 9:",rc(9)
