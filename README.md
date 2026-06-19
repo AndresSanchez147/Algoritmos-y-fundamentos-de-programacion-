@@ -68,4 +68,70 @@ Algoritmo 7
 	
 	Escribir "Su área es: " p*a^2
 	
+
+
+Algoritmo 8
+	
+	Definir A Como Entero
+	Definir b Como Entero
+	Definir c como entero 
+	
+	Escribir "INGRESE A";
+	
+	LEER A 
+	
+	ESCRIBIR "INGRESE B" 
+	
+	LEER B 
+	
+	SI (A < 17) Y (B < 17) Entonces
+		Escribir "VERDADERO"
+	SINO	
+	Escribir "FALSO"
+	FinSi
 FinAlgoritmo
+	
+FinAlgoritmo
+
+lgoritmo 10
+	Escribir "Raíz cuadrada de 9:",rc(9)
+	Escribir "Valor absoluto de -3: ",abs(-3)
+	Escribir "Seno de 90 grados : ", sen(90*PI /180)
+	Escribir "Truncamos de 3.7: ",trunc(3.7)
+	Escribir "Redondeamos 2.7: ",redon(2.7)
+	Escribir "Un numero al azar del 0 al 9: ", azar(10)
+	Escribir "Un numero al azar entre 10 y 20: "
+	
+FinAlgoritmo
+
+
+Proceso Funciones_Cadena 11
+
+
+
+	Definir cad1,cad2 como cadena;
+	Definir num como Entero;
+	
+	cad1<-"informática";
+	
+	Escribir "La longitud de cad1 es ",longitud(cad1);
+	
+	Escribir "El primer carácter de cad1 es ",subcadena(cad1,0,0);
+	
+	Escribir "El último carácter de cad1 es ",subcadena(cad1,longitud(cad1)-1,longitud(cad1)-1);
+	
+	Escribir "La cad1 en mayúsculas es ",mayusculas(cad1);
+	
+	cad2<-concatenar(cad1," es muy interesante");
+	
+	Escribir cad2;
+	
+	num<-ConvertirANumero("10");
+	
+	Escribir num;
+	
+	Escribir Concatenar("El número es ",ConvertirATexto(num));
+	
+	Escribir "El número es ",num;
+
+FinProceso
