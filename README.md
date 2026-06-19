@@ -99,29 +99,12 @@ FinAlgoritmo
 
 FinAlgoritmo
 
-
-Algoritmo 9 ejercicios_de_operadores_logicos 
-	Definir a , b , c , d Como Entero
-	Escribir " valor de a"
-	leer a
-	Escribir " valor de b"
-	leer b
-	Escribir " valor de c"
-	leer c
-	Escribir " valor de d"
-	leer d
-	
-    Escribir (a < 17) Y (b < 17)
-     Escribir (a=b) y (b=c) , (b<>c );
-     Escribir (a<b) Y (b<c) Y (a<d) Y (d<c)
-     Escribir (a=b) O  (b=C )  O (a=c)
-	
 	
 FinAlgoritmo
 
 
 
-lgoritmo 10
+lgoritmo 9
 	Escribir "Raíz cuadrada de 9:",rc(9)
 	Escribir "Valor absoluto de -3: ",abs(-3)
 	Escribir "Seno de 90 grados : ", sen(90*PI /180)
@@ -133,7 +116,7 @@ lgoritmo 10
 FinAlgoritmo
 
 
-Proceso Funciones_Cadena 11
+Proceso Funciones_Cadena 10
 
 
 
