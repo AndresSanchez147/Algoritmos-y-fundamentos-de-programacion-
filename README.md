@@ -108,7 +108,7 @@ FinAlgoritmo
 
 
 
-lgoritmo 9
+Algoritmo 9
 
 	Escribir "Raíz cuadrada de 9:",rc(9)
 	Escribir "Valor absoluto de -3: ",abs(-3)
@@ -121,7 +121,8 @@ lgoritmo 9
 FinAlgoritmo
 
 
-Proceso Funciones_Cadena 10
+Proceso Funciones_Cadena
+Algoritmo 10
 
 
 
@@ -152,7 +153,7 @@ Proceso Funciones_Cadena 10
 
 FinProceso
 
-Algoritmo  10 
+Algoritmo  11
 	
 	Definir a Como entero 
 	a= 17 
