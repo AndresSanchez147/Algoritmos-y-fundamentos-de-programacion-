@@ -151,3 +151,19 @@ Proceso Funciones_Cadena 10
 	Escribir "El número es ",num;
 
 FinProceso
+
+Algoritmo  10 
+	
+	Definir a Como entero 
+	a= 17 
+	
+	si a >=17 Entonces
+		
+		mostrar "Responda la siguiente encuesta "
+		
+	sino mostrar "no puede ser encuestado"
+		
+	FinSi
+	
+	
+FinAlgoritmo
