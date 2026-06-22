@@ -188,3 +188,42 @@ Algoritmo 12
 	
 	
 FinAlgoritmo
+
+
+
+Algoritmo 13
+
+	Definir M Como Entero
+	Dimension vNumero[10]
+		
+	Limpiar Pantalla
+	vNumero = [1] <-20
+	vNumero = [2] <- 14
+	vNumero = [3] <- 8 
+	vNumero = [4] <- 0
+	vNumero = [5] <- 5 
+	vNumero = [6] <- 19
+	vNumero = [7] <- 4
+	vNumero = [8] <- 9
+	vNumero = [9] <- 34 
+	vNumero = [10] <- 23
+	
+	Escribir ""
+	Escribir "Se asignaron los números" 
+	Escribir ""
+	Escribir "Presione para continuar"
+	Esperar tecla 
+	Limpiar Pantalla
+	
+	Escribir  "" 
+	Para  M<- Hasta 10 Con Paso 1 Hacer
+		Escribir "El elemento en la posicion" ,M, "es", vNumero [M] 
+		
+	FinPara
+	
+	Escribir ""
+	Escribir "Presione para Continuar"
+	Esperar Tecla
+	Limpiar Pantalla
+	
+FinAlgoritmo
