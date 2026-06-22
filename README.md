@@ -168,3 +168,23 @@ Algoritmo  11
 	
 	
 FinAlgoritmo
+
+
+
+Algoritmo 12
+	
+	Definir Edad Como Entero
+	
+	Escribir "¿cual es tu edad?"
+	Leer Edad
+	
+	si Edad >=   20   Entonces
+		
+		Mostrar "ejerce tu voto"
+	SiNo 
+		Mostrar "no puedes votar"
+	FinSi
+	
+	
+	
+FinAlgoritmo
