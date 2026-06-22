@@ -156,9 +156,9 @@ FinProceso
 Algoritmo  11
 	
 	Definir a Como entero 
-	a= 17 
+	a= 20
 	
-	si a >=17 Entonces
+	si a >=20 Entonces
 		
 		mostrar "Responda la siguiente encuesta "
 		
