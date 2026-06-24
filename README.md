@@ -241,3 +241,12 @@ Algoritmo 14
 	
 FinAlgoritmo
 
+
+Algoritmo 15
+	Para i <- Hasta 10 Con Paso 1 Hacer
+	Escribir 1 
+	FinPara
+
+FinAlgoritmo
+
+
