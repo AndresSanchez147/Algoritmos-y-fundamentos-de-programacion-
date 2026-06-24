@@ -227,3 +227,17 @@ Algoritmo 13
 	Limpiar Pantalla
 	
 FinAlgoritmo
+
+
+Algoritmo 14 
+	
+	definir numero Como Entero
+	Repetir
+		leer numero 
+		Escribir numero 
+	Hasta Que numero ==0
+	
+	
+	
+FinAlgoritmo
+
