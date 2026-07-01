@@ -395,6 +395,33 @@ Algoritmo 25
 	// Ejecución de la función
 	
 	pagoFinal <- calcularTotalVenta( 100000, 0.19);
+
+
+Algoritmo 27
+
+	Fragmento de código
+	
+
+	// Parámetros Formales: 'nombre' y 'edad' son los espacios vacíos [cite: 314]
+
+	SubProceso validarIngreso ( nombre, edad )
+   	Si edad >= 18 Entonces
+       Escribir "Acceso concedido a: ", nombre;
+   	SiNo
+       Escribir "Acceso denegado. ", nombre, " es menor de edad.";
+   	FinSi
+	FinSubProceso
+	Proceso Principal
+   	Definir usuario Como Caracter;
+   	Definir edadUsuario Como Entero;
+   	usuario <- "Carlos";
+   	edadUsuario <- 20;
+  
+   	// Argumentos Reales: 'usuario' y 'edadUsuario' son los datos concretos [cite: 315]
+   	validarIngreso(usuario, edadUsuario);
+	
+FinProceso
+	
 	
 	Escribir "El total a pagar con IVA es: $", pagoFinal;
 FinProceso
