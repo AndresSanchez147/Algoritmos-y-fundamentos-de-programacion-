@@ -345,8 +345,9 @@ Algoritmo 23
 	FinPara
 FinAlgoritmo
 
+EJERCICIO 24
 
-SubProceso MensajeSistemas
+	SubProceso MensajeSistemas
 	Definir mensaje Como Caracter
 	mensaje <- "Iniciando sistema... Abstracción completada."
 	
@@ -356,11 +357,14 @@ SubProceso MensajeSistemas
 
 Algoritmo 24
 
-	Escribir "llamando la funcion por primera vez"
-	MensajeSistemas();
+	SubProceso MensajeSistemas
+	Definir mensaje Como Caracter
+	mensaje <- "Iniciando sistema... Abstracción completada."
 	
-	Escribir "llamando la funcion por segunda vez"
+	Escribir  mensaje
 	
-FinAlgoritmo
+FinSubProceso
+
+
 
 
