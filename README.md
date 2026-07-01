@@ -344,3 +344,23 @@ Algoritmo 23
 		Escribir num[1]
 	FinPara
 FinAlgoritmo
+
+
+SubProceso MensajeSistemas
+	Definir mensaje Como Caracter
+	mensaje <- "Iniciando sistema... Abstracción completada."
+	
+	Escribir  mensaje
+	
+	FinSubProceso
+
+Algoritmo 24
+
+	Escribir "llamando la funcion por primera vez"
+	MensajeSistemas();
+	
+	Escribir "llamando la funcion por segunda vez"
+	
+FinAlgoritmo
+
+
