@@ -397,7 +397,7 @@ Algoritmo 25
 	pagoFinal <- calcularTotalVenta( 100000, 0.19);
 
 
-Algoritmo 27
+Algoritmo 26
 
 	Fragmento de código
 	
@@ -419,9 +419,6 @@ Algoritmo 27
   
    	// Argumentos Reales: 'usuario' y 'edadUsuario' son los datos concretos [cite: 315]
    	validarIngreso(usuario, edadUsuario);
-	
-FinProceso
-	
 	
 	Escribir "El total a pagar con IVA es: $", pagoFinal;
 FinProceso
